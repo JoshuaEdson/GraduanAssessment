@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital@1&display=swap');
+
+*{
+	font-family: 'Libre Franklin', sans-serif;
+	list-style: none;
+	margin: 0 ;
+	padding: 0 ;
+	box-sizing: border-box;
+}
+
+body{
+    margin-top:20px ;
+    color: #1a202c;
+    text-align: left;
+    background-image: url("resources/views/pictures/img1.jpg");
+    background-size: auto;
+}
+.wrapper{
+    position: absolute;
+    top: 50% ;
+    left: 50% ;
+    transform: translate(-50%,-50%);
+    display: flex;
+    width: 1200px;
+    height: 800px;
+    box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+}
+
+.wrapper .left{
+    width: 40%;
+    background: linear-gradient(to right, #01a0ac, #01dbdf);
+    padding: 30px 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    color: #fff;
+}
+
+.wrapper .left img{
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.wrapper .left h4{
+	margin-bottom: 10px;
+}
+
+.wrapper .left p{
+	font-size: 12px;
+}
+
+.wrapper .right {
+	width: 65%;
+	background: #fff;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding:  30px 25px;
+}
+
+.wrapper .right .info,
+.wrapper .right .projects{
+	margin-bottom: 25px;
+}
+
+.wrapper .right .info h3,
+.wrapper .right .projects h3{
+	margin-bottom: 15px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #e0e0e0;
+	color: #355c4e;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.wrapper .right .info_data,
+.wrapper .right .info_project {
+	display: flex;
+	justify-content: space-between;
+}
+
+.wrapper .right .info_data .data,
+.wrapper .right .info_project .data{
+	width:  45%;
+}
+
+.wrapper .right .info_data .data h4,
+.wrapper .right .info_project .data h4{
+	color: #353c4e;
+	margin-bottom: 5px;
+}
+
+.wrapper .right .info_data .data p,
+.wrapper .right .info_project .data p{
+	color: #919aa3;
+	margin-bottom: 5px;
+	font-size: 13px;
+}
+
+.wrapper .socmed ul{
+	display: flex;
+
+}
+
+.socmed{
+	padding-top: 15%;
+}
+
+.wrapper .socmed ul li{
+	width: 45px;
+	height: 45px;
+	background: linear-gradient(to right, #01a0ac, #01dbdf);
+	margin-right: 10px;
+	border-radius: 5px;
+	line-height: 45px;
+	text-align: center;
+
+}
+
+.wrapper .socmed ul li a{
+	color: #fff;
+	display: block;
+	font-size: 18px;
+}
+
+.button {
+  margin-top: 60%;
+  padding: 15px 25px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 2px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.output img{
+	margin-top: 10%;
+	width: 100px;
+	height: 100px;
+	background: linear-gradient(to right, #01a0ac, #01dbdf);
+}
