@@ -3,13 +3,14 @@
 *{
 	font-family: 'Libre Franklin', sans-serif;
 	list-style: none;
-	margin: 0 ;
-	padding: 0 ;
+	margin: 5% ;
+	padding: 5% ;
 	box-sizing: border-box;
 }
 
 body{
-    margin-top:20px ;
+	display: flex;
+    margin-top:20% ;
     color: #1a202c;
     text-align: left;
     background-image: url("resources/views/pictures/img1.jpg");
@@ -20,9 +21,9 @@ body{
     top: 50% ;
     left: 50% ;
     transform: translate(-50%,-50%);
-    display: flex;
-    width: 1200px;
-    height: 800px;
+    display: 450px;
+    width: 500px;
+    /*height: 500px;*/
     box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
 }
 
